@@ -41,3 +41,30 @@
   color: #a5b4fc;
   text-align: center;
 }
+
+label {
+  margin-bottom: 80px;
+  color: white;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-message,
+.form-nom,
+.form-email {
+  margin-top: 50px;
+}
+
+input {
+  border-radius: 8px;
+  width: 600px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+textarea {
+  width: 600px;
+}
